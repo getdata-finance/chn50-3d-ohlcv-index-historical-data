@@ -1,6 +1,6 @@
 # CHN50 3d OHLCV Index Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-1_111_rows-blue)](https://getdata.finance/datasets/chn50) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/chn50)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-1_112_rows-blue)](https://getdata.finance/datasets/chn50) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/chn50)
 
 ### -> [**Download the full CHN50 dataset on getdata.finance**](https://getdata.finance/datasets/chn50)
 
@@ -23,11 +23,11 @@
 
 - **Ultra high-quality 3d OHLCV** for **FTSE China A50** (Index)
 - **Clean CSV schema** — `datetime, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`3d`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/chn50) · **1,111** `3d` rows in the full archive
+- **Free evaluation sample** on GitHub (`3d`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/chn50) · **1,112** `3d` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [getdata.finance](https://getdata.finance) every **Saturday, 8am UTC+0**; GitHub `3d` sample updated in sync
 
-> **Sample on GitHub** · `CHN50_3d.csv` (244 rows, `2024-09-23` -> `2026-09-22`, 21.84 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/chn50)** — **1,111** `3d` rows (full `1m`: 2,664,006), **11 timeframes**, `2017-07-17` -> `2026-09-22`.
+> **Sample on GitHub** · `CHN50_3d.csv` (244 rows, `2024-09-26` -> `2026-09-25`, 21.83 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/chn50)** — **1,112** `3d` rows (full `1m`: 2,664,006), **11 timeframes**, `2017-07-17` -> `2026-09-25`.
 
 ## Download sample
 
@@ -45,9 +45,9 @@ Full archive & live chart on getdata.finance: **[https://getdata.finance/dataset
 |---|--:|---|
 | Instrument | FTSE China A50 · Index | FTSE China A50 · Index |
 | Timeframes | `3d` (sample) | **11** — 1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W |
-| 3d rows | 244 | **1,111** |
-| Size | 21.84 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/chn50) |
-| Period | `2024-09-23` -> `2026-09-22` | `2017-07-17` -> `2026-09-22` |
+| 3d rows | 244 | **1,112** |
+| Size | 21.83 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/chn50) |
+| Period | `2024-09-26` -> `2026-09-25` | `2017-07-17` -> `2026-09-25` |
 | File | `CHN50_3d.csv` | ZIP on [getdata.finance](https://getdata.finance/datasets/chn50) |
 | Coverage report | — | [CHN50 coverage](https://getdata.finance/coverage/chn50) |
 | Updates | Weekly (Saturday, 8am UTC+0) — GitHub sample | Weekly (Saturday, 8am UTC+0) — all timeframes |
@@ -75,21 +75,21 @@ First and latest rows from the GitHub sample **`CHN50_3d.csv`**:
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2024-09-23T00:00:00+00:00 | 11242.42 | 12350.52 | 11229.07 | 12184.94 | 195768.90957 |
 | 2024-09-26T00:00:00+00:00 | 12184.94 | 13590.76 | 12115.92 | 13348.76 | 356528.20913 |
 | 2024-09-29T00:00:00+00:00 | 13348.76 | 14205.82 | 13348.76 | 14053.54 | 390234 |
 | 2024-10-02T00:00:00+00:00 | 14053.54 | 15567.79 | 14024.83 | 15567.79 | 525158 |
 | 2024-10-05T00:00:00+00:00 | 15567.79 | 16357.54 | 15564.79 | 16202.03 | 178116.47305 |
+| 2024-10-08T00:00:00+00:00 | 16202.03 | 16204.53 | 13309.84 | 13985.38 | 1253145.88402 |
 
 **Last rows**
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-09-10T00:00:00+00:00 | 14608.35 | 14664.48 | 14363.45 | 14510.47 | 131634 |
 | 2026-09-13T00:00:00+00:00 | 14510.47 | 14510.47 | 14253.37 | 14300.87 | 107556 |
 | 2026-09-16T00:00:00+00:00 | 14300.87 | 14527.43 | 14184.58 | 14469.93 | 169377 |
-| 2026-09-19T00:00:00+00:00 | 14469.93 | 14655.91 | 14452.41 | 14645.4 | 50774 |
-| 2026-09-22T00:00:00+00:00 | 14645.4 | 14784.02 | 14576.14 | 14580.12 | 68772 |
+| 2026-09-19T00:00:00+00:00 | 14469.93 | 14655.91 | 14452.41 | 14645.4 | 50790 |
+| 2026-09-22T00:00:00+00:00 | 14645.4 | 14784.02 | 14293.48 | 14315.99 | 165151 |
+| 2026-09-25T00:00:00+00:00 | 14315.99 | 14342.59 | 14238.59 | 14278.6 | 30279 |
 
 ## Schema
 
@@ -154,7 +154,7 @@ print(pf.stats())
 
 ## Download full data
 
-The complete **CHN50** archive on **[getdata.finance](https://getdata.finance/datasets/chn50)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **1,111** rows at `3d`, plus all other timeframes in the same ZIP.
+The complete **CHN50** archive on **[getdata.finance](https://getdata.finance/datasets/chn50)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **1,112** rows at `3d`, plus all other timeframes in the same ZIP.
 
 **[-> Get the full CHN50 dataset on getdata.finance](https://getdata.finance/datasets/chn50)**
 
